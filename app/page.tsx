@@ -1,12 +1,6 @@
-"use client";
-import React, { useState } from "react";
+
 
 const page = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
   return (
     <div
       className="min-h-screen [ p-4 md:p-6 lg:p-8 ] [ flex justify-center items-center ] bg-center bg-cover"
@@ -135,39 +129,6 @@ const page = () => {
           </li>
         </ul>
       </form>
-      <div className="relative">
-        {/* Trigger button */}
-        <button
-          onClick={toggleMenu}
-          className="bg-blue-500 text-white px-4 py-2 rounded"
-        >
-          Open Popup
-        </button>
-
-        {/* Popup menu */}
-        {isOpen && (
-          <div className="absolute right-0 mt-2 w-48 bg-white border rounded-md shadow-lg z-10">
-            <a
-              href="#"
-              className="block px-4 py-2 text-gray-800 hover:bg-blue-500 hover:text-white"
-            >
-              Item 1
-            </a>
-            <a
-              href="#"
-              className="block px-4 py-2 text-gray-800 hover:bg-blue-500 hover:text-white"
-            >
-              Item 2
-            </a>
-            <a
-              href="#"
-              className="block px-4 py-2 text-gray-800 hover:bg-blue-500 hover:text-white"
-            >
-              Item 3
-            </a>
-          </div>
-        )}
-      </div>
     </div>
   );
 };
