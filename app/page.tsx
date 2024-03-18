@@ -24,7 +24,6 @@ const page = () => {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             className="transition pointer-events-none w-6 h-6 absolute top-1/2 transform -translate-y-1/2 left-3"
-            viewBox="0 0 20 20"
             fill="currentColor"
           >
             <path d="M0 0h24v24H0V0z" fill="none" />
@@ -44,7 +43,6 @@ const page = () => {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             className="transition pointer-events-none w-6 h-6 absolute top-1/2 transform -translate-y-1/2 left-3"
-            viewBox="0 0 20 20"
             fill="currentColor"
           >
             <g fill="none">
